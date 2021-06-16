@@ -1,0 +1,292 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: sans-serif;
+}
+.head{
+	font-size: 100px;
+	
+}
+.image {
+  width: 800px;
+  position: absolute;
+  top:50px;
+  left: 200px;
+  z-index:-1;
+    
+
+}
+i{
+	float: right;
+	position: absolute;
+	bottom: 227px;
+	right: 55px;
+	cursor: pointer;
+	margin: 10px 2px;
+	font-size: 18px;
+}
+#hide{
+	display: none;
+}
+img{
+	position: relative;
+	left: 175px;
+	bottom: -40px;
+	 width: 100px;
+  	height: auto;
+}
+.container{
+	position: absolute;
+	top: 150px;
+	right: 10%;
+	width: 450px;
+	height: 600px;
+	background: linear-gradient(0deg, rgba(217,135,188,1) 0%, rgba(173,74,255,1) 100%);
+	border-radius: 20px;
+}
+.label{
+	padding: 20px 130px;
+	position: relative;
+	left: 37px;
+	font-size: 35px;
+	font-weight: bold;
+	color: black;
+}
+.login_form{
+	padding: 20px 40px;
+
+}
+.login_form .font{
+	font-size: 18px;
+	color: black;
+	margin: 5px 0;
+}
+.login_form input{
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+	border: 1px solid silver;
+}
+.login_form .font2{
+	margin-top: 30px;
+}
+.button{
+	margin: 40px 0 30px 0;
+	height: 45px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #999999;
+	border-radius: 1px;
+	border: 1px solid #3949AB;
+	transition: .5s;
+}
+.button:hover{
+	background: #151c6a;
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.forgot{
+	position: relative;
+	top: -20px;
+	left: 195px;
+}
+.box{
+	position: relative;
+	top: -60px;
+	left: 45px;
+}
+.button2{
+	margin: 40px 0 30px 0;
+	height: 45px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	padding: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	background: #999999;
+	border-radius: 10px;
+	transition: .5s;
+	position: relative;
+	left: 165px;
+	top: -80px;
+}
+.butto2n:hover{
+	background: #151c6a;
+}
+.button2:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}.button3{
+	margin: 40px 0 30px 0;
+	height: 45px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	padding: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	background: #999999;
+	border-radius: 10px;
+	transition: .5s;
+	position: relative;
+	left: 155px;
+    bottom: -5px;
+}
+.button3:hover{
+	background: white;
+}
+.button3:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.contact2{
+	position: absolute;
+	bottom:  223px;
+	left: 255px;
+}
+
+
+.modal{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.close{
+	position: absolute;
+	top: 10px;
+	right: 14px;
+	font-size: 50px;
+	transform: rotate(45deg);
+	cursor: pointer;
+	
+
+}
+
+.sign{
+	position: relative;
+	left: 140px;
+	bottom: 10px;		
+}
+
+.form{
+	background-image: linear-gradient(0deg, rgba(217,135,188,1) 0%, rgba(173,74,255,1) 100%);
+	width:450px;
+	height: auto;
+	 margin:0 auto; 
+	 padding-left:50px; 
+	 padding-top:20px;
+	 position: absolute;
+	top: 150px;
+	right: 10%;
+	 border-radius: 20px;
+}
+.pss{
+	position: absolute;
+	bottom: 100px;
+}
+.form fieldset{
+	border:0px; padding:0px; margin:0px;
+}
+.form input[type="text"] { 
+	width: 400px; 
+}
+.form input[type="email"] {
+ width: 400px; 
+}
+.forminput[type="password"] { 
+	width: 400px;
+ }
+.form input.Day {
+	width:60px;
+}
+.form input.Year {
+	width:120px;
+}
+.form label { 
+	color: #000;
+	
+	 font-size: 15px;
+	 font-family:Arial, Helvetica; 
+}
+.form label.month { 
+	width: 135px;
+}
+.form input, textarea { 
+	background-color: rgba(255, 255, 255, 0.4);
+	border: 1px solid rgba(122, 192, 0, 0.15);
+	padding: 7px; 
+	font-family: Keffeesatz, Arial;
+ 	color: #4b4b4b; 
+	font-size: 14px; 
+	-webkit-border-radius: 5px; 
+	margin-bottom: 15px; margin-top: -10px; 
+}
+.form input:focus, textarea:focus{ 
+	border: 1px solid #ff5400; 
+	background-color: rgba(255, 255, 255, 1); 
+}
+.gender {
+  font-size: 18px;
+  color: #141823;
+  cursor: pointer;
+  padding: 0 10px 0 3px;
+  margin-right: 4px;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.spanpad {
+  padding: 5px 0 5px 4px;
+  display: inline-block;
+}
+
+.mt1 {
+  margin-top:15px;
+}
+
+.m0 {
+  margin: 0;
+}
+form p.contact { 
+	font-size: 10px; 
+	margin:0px 0px 10px 0;
+}
+.contact{
+	font-weight: bold;
+}.cpass_txt{
+	position: absolute;
+	bottom: 190px;
+	left: 266px;
+	font-weight: bold;
+}
+.cpass{
+	position: absolute;
+	bottom: 139px;
+	left: 264px;
+}
+.phonum{
+	position: absolute;
+	bottom: 77px;
+}
